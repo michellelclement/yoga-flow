@@ -1,1 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Colours Section */
+
+.btn {
+    color: #FAFAFA;
+    background-color: #FF8970;
+    border: none;
+}
+
+
+
+/* Navigation Section */
+
+.nav-container {
+    left: 0;
+    right: 0;
+}
+
+
+/* Jumbotron Section */
+
+.jumbotron-container {
+    height: 80vh;
+    background: url('../images/jumbo-3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    
+}
+
+/* About Section */
+
+.about-section {
+    margin: 100px 200px;
+}
+
+.about-section h2 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about-section .about-button {
+    margin-top: 30px;
+}
