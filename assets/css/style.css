@@ -16,9 +16,8 @@ body {
 
 /* Navigation Section */
 
-.nav-container {
-    left: 0;
-    right: 0;
+.navbar-nav {
+    float: right;
 }
 
 
@@ -26,17 +25,16 @@ body {
 
 .jumbotron-container {
     height: 80vh;
-    background: url('../images/jumbo-3.jpg') no-repeat center center fixed;
+    background: url('../images/jumbo-3.jpg') no-repeat center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    align-items: center;
-    justify-content: center;
     position: relative;
 }
 
 .jumbotron {
     background-color: transparent;
+    margin: 0 auto;
 }
 
 .jumbotron h1 {
@@ -46,7 +44,7 @@ body {
 /* About Section */
 
 .about-section {
-    margin: 100px 200px;
+   
 }
 
 .about-section h2 {
@@ -56,4 +54,14 @@ body {
 
 .about-section .about-button {
     margin-top: 30px;
+}
+
+
+/* Location Section */
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
